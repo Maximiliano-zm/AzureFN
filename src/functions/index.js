@@ -21,7 +21,7 @@ const mergeImg = async (request) => {
     try{
       const content1 = imagenes.img1["$content"];
       const content2 = imagenes.img2["$content"];
-        // console.log(content2)
+        // console.log(content3)
       const mergeImgsB64 = await mergeImgs(content1,content2);
       return mergeImgsB64;
     }catch(error){
